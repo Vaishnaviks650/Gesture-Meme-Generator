@@ -1,0 +1,127 @@
+# 🎭 Gesture Meme Generator
+
+A real-time AI-powered Gesture Meme Generator built using Python, OpenCV, and MediaPipe. The application detects hand gestures and face landmarks through a webcam and displays a corresponding meme instantly.
+
+## ✨ Features
+
+- 📷 Real-time webcam detection
+- ✋ Hand gesture recognition
+- 😀 Face Mesh detection
+- 🖼️ Displays memes based on detected gestures
+- ⚡ Fast and lightweight
+- 💻 Built with Python
+
+---
+
+## Technologies Used
+
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+
+---
+
+## Project Structure
+
+```
+gesture-meme/
+│
+├── main.py
+├── memes/
+│   ├── rock.jpg
+│   ├── paper.jpg
+│   ├── scissors.jpg
+│   └── thumbsup.jpg
+│
+└── README.md
+```
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Vaishnaviks650/gesture-meme.git
+cd gesture-meme
+```
+
+### Create a virtual environment
+
+Windows
+
+```bash
+python -m venv .venv
+```
+
+Activate
+
+```bash
+.venv\Scripts\activate
+```
+
+---
+
+### Install dependencies
+
+```bash
+pip install opencv-python mediapipe numpy
+```
+
+---
+
+## Run the project
+
+```bash
+python main.py
+```
+
+---
+
+## Supported Gestures
+
+| Gesture | Meme |
+|----------|------|
+| ✊ Rock | Rock Meme |
+| ✋ Paper | Paper Meme |
+| ✌️ Scissors | Scissors Meme |
+| 👍 Thumbs Up | Thumbs Up Meme |
+
+---
+
+## Requirements
+
+- Python 3.11 or Python 3.12 (Recommended)
+- Webcam
+
+> **Note:** MediaPipe currently has compatibility issues with Python 3.14. Use Python 3.11 or 3.12 for best results.
+
+---
+
+## Future Improvements
+
+- More gesture support
+- Custom meme uploads
+- Gesture confidence score
+- FPS counter
+- GUI interface
+- Sound effects
+- Emoji overlays
+
+---
+
+## Author
+
+Your Name
+
+LinkedIn: https://linkedin.com/in/vaishnaviksrao
+
+GitHub: https://github.com/Vaishnaviks650
+
+---
+
+## License
+
+This project is licensed under the MIT License.
